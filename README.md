@@ -1,9 +1,9 @@
-# ProjectTemplate
-An empty project template to start with. Contains the directory structure:
+# HistoImageSegmentation
+Tools for segmentation of histology images
 
 
 ```
-ProjectName_version
+HistoImageSegmentation
 |	README.md
 |	.gitignore
 |
@@ -11,10 +11,12 @@ ProjectName_version
 |	|_______Put your data here (will not be tracked by git, per .gitignore)
 |	
 |_______src
-|	|_______Analysis source code
+|	|_______MainCellDetectionScriptTiles.groovy
 |	
-|_______img
-|	|_______Output images go here
+|_______classifiers
+|	|_______pixel_classifiers
+|	|	|_______Tissue_Detection.json
+|	|________classes.json
 |
 |_______Scripts
 |	|_______Some helpful shell scripts
@@ -23,12 +25,18 @@ ProjectName_version
 |_______Docs
 	|_______InfoAboutProject.txt
 
-```
 
-If needed, you may want to add subdirectories for raw data (like *.fastq) and processed data (like matrix files, etc)
+## About
 
-```
-mkdir data/raw
-mkdir data/processed
-mkdir ReferenceFiles
-```
+This project was tested on the following platform:
+
+QuPath Version: 0.3.2
+Build time: 2022-01-17, 08:50
+Latest commit tag: '71884c6'
+
+Java version:		16.0.2
+Java vendor: 		Eclipse Foundation  -  https://adoptium.net/
+Java home:   		/Applications/QuPath.app/Contents/runtime/Contents/Home
+
+Operating system:		Mac OS X  -  11.2
+Architecture:    		x86_64
