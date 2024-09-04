@@ -25,6 +25,7 @@ HistoImageSegmentation
 |_______Docs
 	|_______InfoAboutProject.txt
 
+```
 
 ## About
 
